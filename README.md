@@ -116,6 +116,7 @@
 > table, thead, tbody, tfoot, tr, th, td, caption
 ```
 <table>
+ <caption></caption>
   <thead>
   <tr>
     <th></th>
@@ -126,13 +127,12 @@
      <td>
      <th></th>
      </td>
-  </tr>
+    </tr>
   </tbody>
   <tfoot>
-  <tr>
-  <td>
-  </td>
-  </tr>
+   <tr>
+    <td></td>
+   </tr>
   </tfoot>
 </table>
 
