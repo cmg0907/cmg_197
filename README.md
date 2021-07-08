@@ -101,7 +101,15 @@
 > href : hyper text feference - 이동하고자 하는 목적이 위치/경로를 표시하는 속성
 > - url(Uniform Resource locator) : 이동하고자 하는 목적지의 위치/경로값
 
+### 목록 요소(List Element)
+> 순서있는/순서없는 목록
+> 
+> ol (Ordered List), ul(Unordered List), li(List Item)
 
-
+> 설명목록
+> 
+> 주제와 설명이 한 세트로 구성되는 목록
+> 
+> dl(Description List), dt(Description Term), dd(Description Data)
 
 
