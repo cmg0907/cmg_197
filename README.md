@@ -112,30 +112,28 @@
 > 
 > dl(Description List), dt(Description Term), dd(Description Data)
 
-### Table Element(https://www.tablesgenerator.com/html_tables)
+### Table Element
 > table, thead, tbody, tfoot, tr, th, td, caption
+
 ```
 <table>
- <caption></caption>
+  <caption></caption>
   <thead>
-  <tr>
-    <th></th>
-  </tr>
+    <tr>
+      <th></th>
+    </tr>
   </thead>
   <tbody>
     <tr>
-     <td>
-     <th></th>
-     </td>
+      <td></td>
     </tr>
   </tbody>
   <tfoot>
-   <tr>
-    <td></td>
-   </tr>
+    <tr>
+      <td></td>
+    </tr>
   </tfoot>
 </table>
-
 ```
 
 > table : table의 영역을 설정
@@ -148,8 +146,7 @@
 > 
 > td(table data) : 데이터 칸(셀)
 > 
-> caption : 테이블의 제목, 설명
-> 
+> caption : 테이블의 제목,설명
 
 
 
