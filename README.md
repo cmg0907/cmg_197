@@ -177,7 +177,7 @@
 
 <img src="images/picture.jpg">
 
-<img src="../images.picture.jpg">
+<img src="../images/picture.jpg">
 ```
 
 
