@@ -61,7 +61,6 @@
 
 > 시작태그만 있고 종료 태그가 없는 요소
 
-
 ### HTML 속성(Attribute) 
 
 > html element에 대해 추가정보(이동경로, 파일명...)를 제공
@@ -166,7 +165,6 @@
 > - muted : 음소거
 > - autoplay : 자동재생(항상 muted 와 같이 사용)
 
-
 ### 절대경로/상대경로
 
 > 절대경로 : 콘텐츠 파일을 불러오고자 하는 HTML 페이지가 어떤 위치에 있던 동일하게 찾아올수 있도록 자세하게 표시하는 경로
@@ -178,6 +176,10 @@
 <img src="images/picture.jpg">
 
 <img src="../images/picture.jpg">
+
+root 상대경로(시작점)
+<img src="/images/picture.jpg">
+
 ```
 
 ### Block/Inline Elemnet
@@ -216,6 +218,10 @@
 <button type="reset">이름</button>
 ```
 
-
+#### 인터넷 주소체계
+> Ip address : 192.168.0.1
+> Domain address : https://www.naver.com
+> - 기본주소 (IP) => 의미있는 영어단어로 변환 : 도메인 주소
+> www.naver.com/images/picture.jpg => URL
 
 
