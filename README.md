@@ -282,6 +282,52 @@ h1 {color:red;font=size:10px;}
 > - camel case : gnbListItem  => javascript 변수/함수 이름
 > - pascal case : GnbLisIitem  => javascript class 이름 지정
 
+### 컬러 모드/코드 정리
+
+> 컬러모드
+> - RGB : Red, Green, Blue - 가산혼합
+> - CMYK : Cyan, Magenta, Yello, Black(key plate) - 감산혼합
+
+> 색 표현 범위
+> - 1bit : 최소단위
+> - 8bit => 1byte : 정보표현의 최소단위
+> - RGB 색상 표현 : 각 1byte씩 총 3byte(24bit)로 표현(트루컬러)
+> - RGB 색상 표현 값 : 
+>   - 16진수 : #0FAB78 
+>   - 10진수 : (255, 100, 121) ※ 숫자범위 : 0~255
+
+### Text CSS 
+
+> color
+> - value : #000000, rgb(0,0,0)(black), #ffffff, rgb(255,255,255)(white)
+> text-align : left, center, right, justify
+> text-decoration : underline, line-through, overline, none
+> text-indent : 50px(들여쓰기), -50px(내어쓰기)
+> letter-spacing : 3px,-3px
+> line-height : 24px, 1.6(배수표현)
+> word spacing
+
+> white-space : nowarp(줄바꿈비화성화)
+
+### Font CSS
+
+> font-family : 'Times New Roman', Times, serif;
+> - font fallback : 랜더링시 폰트를 찾지 못했을 때  다른 폰트를 사용하도록 하는 대비책
+> - web safe : 웹 페이지가 표시도리 때 표시하고자 했던 폰트가 제대로 보일수 있도록 선택
+> - web font : 사용자 클라이언트에서 폰트를 찾는 것이 아니라 서버에서 폰트를 찾도록 하는 방식
+> - google font : 웹 폰트를 사용할 수 있도록 해주는 구글 폰트 서비스
+> - 눈누 : 한글 웹폰트 서비스
+> font-weight : normal(regular:400), bold(700)
+
+> font-size : 20px
+
+> font-style : italic
+
+
+
+
+
+
 
 
 
