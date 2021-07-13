@@ -318,9 +318,9 @@ h1 {color:red;font=size:10px;}
 > - google font : 웹 폰트를 사용할 수 있도록 해주는 구글 폰트 서비스
 > - 눈누 : 한글 웹폰트 서비스
 > font-weight : normal(regular:400), bold(700)
-
+>
 > font-size : 20px
-
+>
 > font-style : italic
 
 
