@@ -4,20 +4,20 @@
 
 > 클라이언트-서버 시스템은 복잡한 네트워크 연결중 양 끝단에 연결된 사용자와 공급자의 관계를 의미함
 > 
-> 클라이언트 : 사용자가 사용하는 디바이스 또는 디바이스에서 시행되는 어플리케이션 
+> 클라이언트 : 사용자가 사용하는 디바이스 또는 디바이스에서 실행되는 어플리케이션
 > 
 > Ex) 웹브라우저
 > 
-> 서버 : 데이터, 네트워크 서비스가 공급 되는 디바이스 또는 디바이스에서 실행되는 서버소프트웨어 
+> 서버 : 데이터, 네트워크 서비스가 공급되는 디바이스 또는 디바이스에서 실행되는 서버소프트웨어
 > 
-> Ex) 아파치 서버 
+> Ex) 아파치 서버
 
 ## HTML 기본 개념
 
->HTML - Hyper Text Markup Language
->
->웹페이지에 구성 요소를 표시하는 언어
->
+> HTML - Hyper Text Markup Language
+> 
+> 웹페이지에 구성 요소를 표시하는 언어
+> 
 > 구성 요소 : 콘텐츠, 구조
 
 ## HTML 기본구조
@@ -27,13 +27,13 @@
 ```
 <!DOCTYPE html>
 <html>
- <head></head>
- <body></body>
+  <head></head>
+  <body></body>
 </html>
 ```
 
 - DOCTYPE : html문서 타입
-- html : html 영역표시
+- html : html 영역 표시
 - head : 해당 웹페이지의 부연설명, 부가정보가 포함
 - body : 웹페이지의 콘텐츠를 표시하는 영역
 
@@ -49,7 +49,7 @@
 
 > 요소의 영역안에 다른 요소를 포함하는 관계
 > 
-> 직계 포함하는 요소 : 부모(parent)요소 
+> 직계 포함하는 요소 : 부모(parent)요소
 > 
 > 직계 포함되는 요소 : 자식(child)요소
 > 
@@ -61,20 +61,21 @@
 
 > 시작태그만 있고 종료 태그가 없는 요소
 
-### HTML 속성(Attribute) 
+
+### HTML 속성(Attribute)
 
 > html element에 대해 추가정보(이동경로, 파일명...)를 제공
-> 시작태그에 입력 
+> 시작태그에 입력
 > 형식 : 속성이름 = "속성값"
 
-### HTML로 표현할수 있는 콘텐츠(웹페이지에서 표현할수 없는 콘텐츠)
+### HTML로 표현할수 있는 콘텐츠(웹페이지에서 표현할수 있는 콘텐츠)
 
 > 텍스트 콘텐츠
 > 
 > 멀티미디어 콘텐츠
-> - 이미지
-> - 비디오
-> - 오디오
+>  - 이미지
+>  - 비디오
+>  - 오디오
 
 ### 제목 요소(Heading Element)
 > h1 ~ h6(h : heading)
@@ -86,24 +87,24 @@
 > - 단락을 구분하는 수평선을 표시
 > 빈요소
 
->br : Line Break
->- 같은 단락안에서 강제 줄바꿈
+> br : Line Break
+> - 같은 단락안에서 강제 줄바꿈
 > 빈요소
 
 ### 하이퍼링크 요소(Hyper Link Element)
->a : anchor
+> a : anchor
 
 ```
 <a href="url">링크텍스트</a>
 ```
 
-> href : hyper text feference - 이동하고자 하는 목적이 위치/경로를 표시하는 속성
-> - url(Uniform Resource locator) : 이동하고자 하는 목적지의 위치/경로값
+> href : hyper text reference - 이동하고자 하는 목적이 위치/경로를 표시하는 속성
+> - url(Uniform Resource locator) : 이동하고자하는 목적지의 위치/경로 값
 
 ### 목록 요소(List Element)
 > 순서있는/순서없는 목록
 > 
-> ol (Ordered List), ul(Unordered List), li(List Item)
+> ol(Ordered List), ul(Unordered List), li(List Item)
 
 > 설명목록
 > 
@@ -148,7 +149,7 @@
 > caption : 테이블의 제목,설명
 
 ### Image element
-> img(image
+> img(image)
 > attribute : src(source), alt(alternative)
 
 ```
@@ -163,7 +164,7 @@
 > - controls : 비디오 컨트롤 버튼 표시
 > - loop : 비디오 반복 재생
 > - muted : 음소거
-> - autoplay : 자동재생(항상 muted 와 같이 사용)
+> - autoplay : 자동재생(항상 muted와 같이 사용)
 
 ### 절대경로/상대경로
 
@@ -171,22 +172,21 @@
 > 상대경로 : 콘텐츠 파일을 불러오고자 하는 HTML 페이지의 위치를 기준으로 콘텐츠 파일의 위치를 표시하는 경로
 
 ```
-<img src="https://w3schools.com/images/picture/jpg">
+<img src="https://w3schools.com/images/picture.jpg">
 
 <img src="images/picture.jpg">
 
 <img src="../images/picture.jpg">
 
-root 상대경로(시작점)
+root 상대경로
 <img src="/images/picture.jpg">
-
 ```
 
-### Block/Inline Elemnet
+### Block/Inline Element
 > 화면에 표시되는 형태를 기준으로 구분하는 방식
 
->Block Element
->
+> Block Element
+> 
 > - 화면에 줄바꿈되어 표시되는 요소
 > 
 > - 항상 사용가능한 전체 너비를 차지함
@@ -198,11 +198,11 @@ root 상대경로(시작점)
 > - 인라인요소에 포함된 콘텐츠의 너비만큼만 차지함
 > 
 > div(division) / span
-> - 단순 영역 구분 요소
+> - 단순 영역구분 요소(Container Element)
 
 ### 폼 요소
 
-> input, button, 
+> input, button
 
 ```
 <input type="text">
@@ -218,55 +218,55 @@ root 상대경로(시작점)
 <button type="reset">이름</button>
 ```
 
-#### 인터넷 주소체계
+### 인터넷 주소체계
 
-> Ip address : 192.168.0.1
-
+> IP address : 192.168.0.1
+> 
 > Domain address : https://www.naver.com
-> - 기본주소 (IP) => 의미있는 영어단어로 변환 : 도메인 주소
+> - 기본주소(IP) => 의미있는 영어단어로 변환 : 도메인 주소
 > 
 > www.naver.com/images/picture.jpg => URL
 
 ## CSS
 
-> CSS(Cascading Style Sheet) 
+> CSS(Cascading Style Sheet)
 > 
 > - cascading : 나중에 선언한것이 최종 반영되는 CSS 특징
 > 
-> - CSS는  여러 대상에 대해서 공통으로 스타일을 적용시킬수 있음
+> - CSS는 여러 대상에 대해서 공통으로 스타일을 적용시킬수 있음
 
 > CSS syntax
->  
+> 
 > - selector(선택자)와 declaration block(선언블록)으로 구성됨
 > 
-> - 선언블록은 중괄호안에 여러 선언을 포함
+> - 선언블록은 중괄호 안에 여러 선언을 포함
 > 
 > - 각 선언에는 property와 value로 구성됨
 
 ```
-h1 {color:red;font=size:10px;} 
+h1 {color:red;font-size:10px;}
 ```
 
 ### class, id
 
-> HTML element에 대해ㅐ서 이름을 지정해줄 때 사용하는 attribute
+> HTML element에 대해서 이름을 지정해줄 때 사용하는 attibute
 > 
 > class
-
-> - 여러개의 HTML element에 같은 class이름을 사용할 수 있음
+> 
+> - 여러개의 HTML element에 같은 클래스 이름을 사용할 수 있음
 > 
 > - 한 개의 HTML element에 여러개의 클래스 이름을 사용할 수 있음
 > 
 > id
 > 
-> - id 이름은 HTML 문서내에서 고유해야함(한 개만 존재)
+> - id 이름은 HTML 문서내에서 고유해야함(한 개만 존재)\
 > 
-> - 한개의 HTML element에 한 개의 id이름만 사용할 수 있음
-> 
+> - 한 개의 HTML element에 한 개의 id 이름만 사용할 수 있음 
+
 ```
-<div class="box box1 box2">,/div>
-<div class="box box1 box2">,/div>
-<div class="box box1 box2">,/div>
+<div class="box box1 box2"></div>
+<div class="box box1 box2"></div>
+<div class="box box1 box2"></div>
 
 <div id="title1"></div>
 <div id="title2"></div>
@@ -274,64 +274,66 @@ h1 {color:red;font=size:10px;}
 ```
 
 ### naming 표기방식
-- naming을 할 때 한 단어로 naming을 하기에는 한계가 있기 때문에 여러 단어로 naming을 하게될때, 단어와 단어 사이를 구분해야 하는데 일반 문서 작성처럼 띄어쓰기로 구분할 수 없기때문에 단어와 단어 사이를 기호나 규칙에 의해서 띄어쓰지 않고 구분할 수 있도록 함 => 표기방식
+- naming을 할 때 한 단어로 naming을 하기에는 한계가 있기 때문에 여러 단어로 naming을 하게될 때, 단어와 단어 사이를 구분해야 하는데 일반 문서 작성처럼 띄어쓰기로 구분할 수 없기때문에 단어와 단어 사이를 기호나 규칙에 의해서 띄어쓰지 않고 구분할 수 있도혹 함 => 표기방식
 
-> 표기방식 종류 
-> - snake case : gnb_list_item (underbar/underscore) => file/folder 
+> 표기방식 종류
+> - snake case : gnb_list_item (underbar/underscore) => file/folder
 > - kebab case : gnb-list-item (hyphen/dash) => id/class
-> - camel case : gnbListItem  => javascript 변수/함수 이름
-> - pascal case : GnbLisIitem  => javascript class 이름 지정
+> - camel case : gnbListItem => javascript 변수/함수 이름
+> - Pascal case : GnbListItem => javascript에서의 class 이름 지정
 
 ### 컬러 모드/코드 정리
 
 > 컬러모드
 > - RGB : Red, Green, Blue - 가산혼합
-> - CMYK : Cyan, Magenta, Yello, Black(key plate) - 감산혼합
+> - CMYK : Cyan, Magenta, Yellow, Black(Key plate) - 감산혼합
 
 > 색 표현 범위
 > - 1bit : 최소단위
-> - 8bit => 1byte : 정보표현의 최소단위
+> - 8bit => 1byte : 정보표현 최소단위
 > - RGB 색상 표현 : 각 1byte씩 총 3byte(24bit)로 표현(트루컬러)
-> - RGB 색상 표현 값 : 
->   - 16진수 : #0FAB78 
->   - 10진수 : (255, 100, 121) ※ 숫자범위 : 0~255
+> - RGB 색상 표현 값
+>   - 16진수 : #0FAB78
+>   - 10진수 : (255, 100, 121) ※숫자범위 : 0~255
 
-### Text CSS 
+### Text CSS
 
 > color
+> 
 > - value : #000000, rgb(0,0,0)(black), #ffffff, rgb(255,255,255)(white)
+> 
 > text-align : left, center, right, justify
 > 
 > text-decoration : underline, line-through, overline, none
 > 
 > text-indent : 50px(들여쓰기), -50px(내어쓰기)
 > 
-> letter-spacing : 3px,-3px
+> letter-spacing : 3px, -3px
 > 
 > line-height : 24px, 1.6(배수표현)
 > 
-> word spacing
+> word-spacing
 > 
-
-> white-space : nowarp(줄바꿈비화성화)
+> white-space : nowrap(줄바꿈 비활성화)
 
 ### Font CSS
 
 > font-family : 'Times New Roman', Times, serif;
-> - font fallback : 랜더링시 폰트를 찾지 못했을 때  다른 폰트를 사용하도록 하는 대비책
-> - web safe : 웹 페이지가 표시도리 때 표시하고자 했던 폰트가 제대로 보일수 있도록 선택
+> - font fallback : 랜더링시 폰트를 찾지 못했을 때 다른 폰트를 사용하도록 하는 대비책
+> - web safe : 웹 페이지가 표시될 때 표시하고자 했던 폰트가 제대로 보일수 있도록 선택
 > - web font : 사용자 클라이언트에서 폰트를 찾는 것이 아니라 서버에서 폰트를 찾도록 하는 방식
 > - google font : 웹 폰트를 사용할 수 있도록 해주는 구글 폰트 서비스
 > - 눈누 : 한글 웹폰트 서비스
+> 
 > font-weight : normal(regular:400), bold(700)
->
+> 
 > font-size : 20px
->
+> 
 > font-style : italic
 
-### Box model
+### Box Model
 
-> HTML Element에는 기본적으로 영역이 존재하는데, 이 영역에 몇가지 css의 요소를 적용할 수 있음.
+> HTML Element에는 기본적으로 영역이 존재하는데, 이 영역에 몇가지 CSS 요소를 적용할 수 있음.
 > - Content 영역 : width/height
 > - padding : 안쪽 여백
 > - border : 테두리
@@ -340,42 +342,42 @@ h1 {color:red;font=size:10px;}
 ### width/height
 
 > width : 가로길이/너비
-> - 기본 성질 : Block 요소는 부모요소에 맞춰지고, inline 요소는 자식요소에 맞춰짐
+> - 기본 속성 : Block 요소는 부모요소에 맞춰지고, inline 요소는 자식요소에 맞춰짐
 > 
 > height : 세로길이/높이
-> - 기본 속성 : Block. Intline 모두 지식요소에 맞춰짐
->  
->  단위
+> - 기본 속성 : Block, Inline 모두 자식요소에 맞춰짐
+> 
+> 단위
 > - px : 지정된 수치값으로 고정
 > - % : 지정된 수치값이 부모요소를 기준으로 일정 비율 크기로 정해짐
 > - Block 요소의 경우 px, % 단위가 적용됨
-> - Inline 요소의 경우 px, % 단위 적용되지 않음
+> - Inline 요소의 경우 px, % 단위 모두 적용되지 않음
 
-### padding 
+### padding
 
-> padding-top 
+> padding-top
 > 
 > padding-right
 > 
 > padding-bottom
 > 
-> padding-left 
-
+> padding-left
+> 
 > padding 축약표현
+
 ```
 padding:20px; : 모든 방향
 
 padding:20px 30px; : top/bottom right/left
 
-padding:20px 30px 40px; : top right / bottom left
+padding:20px 30px 40px : top right/left bottom
 
-padding:10px 20px 30px 40px; : top right bottom left
+padding:10px 20px 30px 40px : top right bottom left
 ```
 
-### Margin
+### margin
 
 > padding과 사용방법이 같음
-
 
 > margin 겹침
 > - 위아래 연이어 배치된 박스의 위/아래 margin이 겹쳐서 큰 수치의 margin만 표현되는 것
@@ -383,54 +385,103 @@ padding:10px 20px 30px 40px; : top right bottom left
 ### border
 
 > border
->
+> 
 > width, style, color
->
+> 
 > top, right, bottom, left
 
 ```
-border:1px solid #fff, ex) #aaa5500 => #a50
+border:1px solid #fff; Ex) #aa5500 => #a50
 
 border-width:1px;
 border-style:solid;
 border-color:#fff;
 
 border-top:1px solid #fff;
-border-right:1px solid #fff
-border-bottom:1px solid #fff
-border-left:1px solid #fff
+border-right:1px solid #fff;
+border-bottom:1px solid #fff;
+border-left:1px solid #fff;
 ```
 
 ### 박스 모델 크기 계산
 
 > width/height, padding, border, margin 모두 별개의 요소
 
-> Ex) 박스의 전체너비  : 300px, padding:20px 4방향, 테두리 1px 4방향, margin 30px 4방향
-
+> Ex) 박스의 전체너비 : 300px, padding:20px 4방향, 테두리 1px 4방향, margin 30px 4방향
 ```
 div{
- padding:20px;
- border:1px solid #fff;
- margin:30px;
- width:258px;
+  padding:20px;
+  border:1px solid #fff;
+  margin:30px;
+  width:258px;
 }
 ```
 
-> box-sizing:border-box;(기본값 : content- box)
+> box-sizing:border-box;(기본값 : content-box)
 
 ```
 div{
- padding:20px;
- border:1px solid #fff;
- margin:30px;
- width:300px;
+  padding:20px;
+  border:1px solid #fff;
+  margin:30px;
+  width:300px;
+  box-sizing:border-box;
 }
 ```
 
 ### Block, Inline에 박스모델 적용
 
 > Block : 박스모델의 모든 요소가 적용 가능
-> Inline : 박스모델의 width/height, 상하 margin 이 제대로 적용되지 않는다.
+> Inline : 박스모델의 width/height, 상하 margin 이 제대로 적용되지 않음
+
+### display 속성
+
+> 박스(영역)의 block, inilne 속성을 변형
+
+> display : inline => 박스 속성이 inline으로 변형
+> 
+> display : block => 박스 속성이 block으로 변형
+> 
+> dispaly : inline-block => 박스속성이 inline 요소 속성(가로길이가 자식요소에 맞춰짐), block 요소의 속성(박스 모델 적용 가능) 모두 가지고 있음
+
+### 가로 배치 방법
+
+- float
+- flex
+- grid
+
+### float
+
+> 박스를 부유시켜서 좌우배치를 할 수 있게 함
+> float:left, float:right 부모 요소의 왼쪽/오른쪽을 기준으로 배치,순서 적용
+
+> float으로 배치시 박스가 띄워지기 때문에 위아래 인접 관계 박스들의 레이아웃이 위로 올라감
+> float 박스의 하단 박스에 clear:both 를 적용하면 위로 올라가지 않음
+> float 박스는 계속 띄워져 있기 때문에 margin 적용 같은 문제가 발생할 수 있음
+
+> float 박스를 부모요소로 감싸주고 float박스 하단에 높이 0 짜리 박스를 추가해서 clear:both를 적용
+> float 박스와 위아래 인접관계에 있던 박스들은 float 박스의 부모요소와 인접관계가 되기 때문에 float과 상관없어짐
+```
+HTML
+<div class="float-parent">
+  <div class="float-box">Text</div>
+  <div class="clearfix"></div>
+</div>
+
+CSS
+.float-box{
+  float:left;
+}
+.clearfix{
+  clear:both;
+}
+```
+
+
+
+
+
+
 
 
 
