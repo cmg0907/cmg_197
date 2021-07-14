@@ -301,11 +301,17 @@ h1 {color:red;font=size:10px;}
 > color
 > - value : #000000, rgb(0,0,0)(black), #ffffff, rgb(255,255,255)(white)
 > text-align : left, center, right, justify
+> 
 > text-decoration : underline, line-through, overline, none
+> 
 > text-indent : 50px(들여쓰기), -50px(내어쓰기)
+> 
 > letter-spacing : 3px,-3px
+> 
 > line-height : 24px, 1.6(배수표현)
+> 
 > word spacing
+> 
 
 > white-space : nowarp(줄바꿈비화성화)
 
@@ -377,9 +383,9 @@ padding:10px 20px 30px 40px; : top right bottom left
 ### border
 
 > border
-
+>
 > width, style, color
-
+>
 > top, right, bottom, left
 
 ```
@@ -395,11 +401,31 @@ border-bottom:1px solid #fff
 border-left:1px solid #fff
 ```
 
+### 박스 모델 크기 계산
 
+> width/height, padding, border, margin 모두 별개의 요소
 
+> Ex) 박스의 전체너비  : 300px, padding:20px 4방향, 테두리 1px 4방향, margin 30px 4방향
 
+```
+div{
+ padding:20px;
+ border:1px solid #fff;
+ margin:30px;
+ width:258px;
+}
+```
 
+> box-sizing:border-box;(기본값 : content- box)
 
+```
+div{
+ padding:20px;
+ border:1px solid #fff;
+ margin:30px;
+ width:300px;
+}
+```
 
 
 
