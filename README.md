@@ -477,6 +477,44 @@ CSS
 }
 ```
 
+### 가상 클래스(Pseudo Class)
+
+>선택자(요소)의 상태를 정의
+>
+> dufj dythwnd xmrwjd dythfmf wlwjd 여러 요소의 특정 요소를 지정
+
+
+```
+tkdxo wjddml
+a:link{
+  color:red;
+}
+a:visited{
+color:blue;
+}
+
+a:hover{
+color:green;
+}
+
+a:active{
+color:yellow;
+}
+
+※ a 태그의 pseudo class는 위 순서와 동일하게 코딩
+
+특정 요소 지정
+
+p:first-child{
+  color:red;
+}
+
+p:last-child{
+
+}
+
+p:nth-child(e)
+```
 
 
 
