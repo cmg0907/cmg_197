@@ -668,11 +668,39 @@ div{font-size:15px;}
 }
 ```
 
+## Javascript
 
+###object(객체)
 
+> js object는 javascript가 동작, 기능할 때 필요한 대상
 
+> object는 property와 method를 포함
+> - property는 Object의 속성
+> - method는 Object의 동작, 기능
+```
+Syntax)
+obeject.property~
+Obeject.method()~
 
+Ex)
+car.name _ 'grandeur';
+car.company = 'hyundai';
 
+car.start();
+car.drive();
+```
+
+### JS DOM
+
+> javascript가 HTML Element에 access 하기 위해서 브라우저가 생성하는 Object
+
+### jQuery DOM
+
+> jQuery가 HTML element에 access 하기 위해서 브라우저가 생성하는 Object
+
+### jQuery
+
+> Javascript를 좀더 간편하고 유연하게 사용할 수 있도록 만들어진 라이브러리
 
 
 
